@@ -1,0 +1,17 @@
+body.dark {
+
+  --background-color:
+  #020617;
+
+  --text-color:
+  #ffffff;
+}
+
+body.light {
+
+  --background-color:
+  #F8FAFC;
+
+  --text-color:
+  #1E293B;
+}

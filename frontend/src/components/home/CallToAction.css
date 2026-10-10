@@ -1,0 +1,54 @@
+.cta-section{
+
+    padding:100px 0;
+
+    background:#f8fafc;
+}
+
+.cta-box{
+
+    background:
+    linear-gradient(
+      135deg,
+      #2563EB,
+      #14B8A6
+    );
+
+    padding:60px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    color:white;
+}
+
+.cta-box h2{
+
+    font-size:2.5rem;
+
+    font-weight:700;
+}
+
+.cta-box p{
+
+    margin-top:15px;
+
+    margin-bottom:25px;
+}
+
+.cta-btn{
+
+    background:white;
+
+    color:#2563EB;
+
+    font-weight:600;
+
+    padding:12px 25px;
+}
+
+.cta-btn:hover{
+
+    background:#f1f5f9;
+}

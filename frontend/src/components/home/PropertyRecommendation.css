@@ -1,0 +1,40 @@
+.recommendation-section{
+
+    padding:90px 0;
+
+    background:#f8fafc;
+}
+
+.recommend-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:
+    0 8px 20px rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+}
+
+.match-score{
+
+    display:inline-block;
+
+    background:#14B8A6;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    margin-bottom:15px;
+}

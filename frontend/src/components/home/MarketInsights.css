@@ -1,0 +1,45 @@
+.insights-section{
+
+    padding:90px 0;
+
+    background:white;
+}
+
+.insight-card{
+
+    background:
+    linear-gradient(
+      135deg,
+      #2563EB,
+      #14B8A6
+    );
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+    border-radius:20px;
+
+    height:100%;
+}
+
+.insight-icon{
+
+    font-size:2.5rem;
+
+    margin-bottom:15px;
+}
+
+.insight-card h4{
+
+    font-size:2rem;
+
+    font-weight:700;
+}
+
+.insight-card p{
+
+    margin-top:10px;
+}

@@ -1,0 +1,36 @@
+.why-section{
+
+    padding:90px 0;
+
+    background:white;
+}
+
+.feature-card{
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:
+    0 8px 20px rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+}
+
+.feature-icon{
+
+    font-size:2.5rem;
+
+    color:#2563EB;
+
+    margin-bottom:15px;
+}

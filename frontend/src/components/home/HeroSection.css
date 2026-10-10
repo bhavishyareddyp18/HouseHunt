@@ -1,0 +1,116 @@
+.hero-section{
+
+    min-height:90vh;
+
+    background:
+    linear-gradient(
+      rgba(15,23,42,0.85),
+      rgba(15,23,42,0.85)
+    ),
+    url(
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    );
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+}
+
+.hero-overlay{
+
+    width:100%;
+    padding:80px 0;
+}
+
+.hero-title{
+
+    color:white;
+
+    font-size:4rem;
+
+    font-weight:700;
+
+    line-height:1.2;
+}
+
+.hero-text{
+
+    color:#ddd;
+
+    margin-top:20px;
+
+    font-size:1.2rem;
+
+    max-width:650px;
+}
+
+.hero-btn{
+
+    margin-top:25px;
+
+    background:#14B8A6;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border:none;
+}
+
+.hero-btn:hover{
+
+    background:#0f9d8b;
+    color:white;
+}
+
+.search-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:
+    0 10px 30px rgba(
+      0,
+      0,
+      0,
+      0.2
+    );
+}
+
+.search-card h3{
+
+    margin-bottom:20px;
+}
+
+.search-btn{
+
+    width:100%;
+
+    background:#2563EB;
+
+    color:white;
+}
+
+.search-btn:hover{
+
+    background:#1e4ec7;
+    color:white;
+}
+
+@media(max-width:768px){
+
+    .hero-title{
+
+        font-size:2.5rem;
+    }
+
+    .search-card{
+
+        margin-top:40px;
+    }
+}

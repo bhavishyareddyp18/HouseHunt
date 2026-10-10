@@ -1,0 +1,26 @@
+.footer-section{
+
+    background:#0F172A;
+
+    color:white;
+
+    padding:60px 0 20px;
+}
+
+.footer-section h3,
+.footer-section h5{
+
+    margin-bottom:20px;
+}
+
+.footer-section ul{
+
+    list-style:none;
+
+    padding:0;
+}
+
+.footer-section li{
+
+    margin-bottom:10px;
+}

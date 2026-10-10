@@ -1,0 +1,17 @@
+.properties-page{
+
+  min-height:100vh;
+
+  padding:120px 0 80px;
+
+  background:#F8FAFC;
+}
+
+.properties-page h1{
+
+  margin-bottom:30px;
+
+  font-weight:700;
+
+  color:#0F172A;
+}

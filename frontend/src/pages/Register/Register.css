@@ -1,0 +1,120 @@
+.register-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    background:
+    linear-gradient(
+      135deg,
+      #0F172A,
+      #14B8A6
+    );
+}
+
+.register-container{
+
+    width:100%;
+
+    max-width:1200px;
+
+    background:white;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    box-shadow:
+    0 15px 40px rgba(
+      0,
+      0,
+      0,
+      0.2
+    );
+}
+
+.register-left{
+
+    flex:1;
+
+    background:
+    linear-gradient(
+      135deg,
+      #14B8A6,
+      #2563EB
+    );
+
+    color:white;
+
+    padding:60px;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-direction:column;
+}
+
+.register-left h1{
+
+    font-size:3rem;
+
+    font-weight:700;
+}
+
+.register-left p{
+
+    margin-top:20px;
+}
+
+.register-right{
+
+    flex:1;
+
+    padding:50px;
+}
+
+.register-form h2{
+
+    margin-bottom:25px;
+
+    font-weight:700;
+}
+
+.register-btn{
+
+    width:100%;
+
+    background:#14B8A6;
+
+    color:white;
+
+    padding:12px;
+}
+
+.register-btn:hover{
+
+    background:#11998e;
+
+    color:white;
+}
+
+.register-link{
+
+    color:#2563EB;
+
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+    .register-container{
+
+        flex-direction:column;
+    }
+}

@@ -1,0 +1,40 @@
+.trending-section{
+
+    padding:80px 0;
+
+    background:white;
+}
+
+.location-card{
+
+    background:
+    linear-gradient(
+      135deg,
+      #2563EB,
+      #14B8A6
+    );
+
+    color:white;
+
+    padding:40px 20px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    cursor:pointer;
+}
+
+.location-card h3{
+
+    font-size:1.7rem;
+
+    margin-bottom:15px;
+}
+
+.location-card p{
+
+    margin:0;
+
+    font-size:1rem;
+}
