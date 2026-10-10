@@ -1,0 +1,13 @@
+{
+  "name": "rentnest-mern-house-rent-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack MERN House Rent Management System with JWT auth, RBAC, property approvals, bookings, seeded demo data, and project review checklist.",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "node scripts/dev.js",
+    "seed": "npm run seed --prefix backend",
+    "start": "npm start --prefix backend",
+    "build": "npm run build --prefix frontend"
+  }
+}
